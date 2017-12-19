@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="catalog.css">
+    <title>Main.psd</title>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header class="container-fluid header-background">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <a href="#" class="header-logo"><img src="img/header-logo.png" alt="logo"></a>
+                    <div class="callback">
+                            <p>8 (960) 204-15-79</p>
+                            <a class="callback-link" href="#">Обратный звонок</a>
+                            <form class="callback-form disabled">
+                                    <input type="text" placeholder="Ваш телефон"></input>
+                                    <button type="submit" >Позвоните мне!</button>
+                            </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="header-menu">
+        <div class="container-fluid main-menu">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                            <ul>
+                                <li><a href="#">главная</a></li>
+                                <li><a class="item-projects" href="#">проекты</a></li>
+                                <li><a href="#">акции</a></li>
+                                <li><a href="#">о компании</a></li>
+                                <li><a href="#">галерея</a></li>
+                                <li><a href="#">вакансии</a></li>
+                            </ul>
+                            <div class="btn-search"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid sub-menu disabled">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <ul>
+                                <li><a href="#"><img src="img/sub-menu-house.png" alt="houses">дома</a></li>
+                                <li><a href="#"><img src="img/sub-menu-bath.png" alt="">бани</a></li>
+                                <li><a href="#"><img src="img/sub-menu-basement.png" alt="">фундаменты</a></li>
+                                <li><a href="#"><img src="img/sub-menu-kitchen.png" alt="">летние кухни</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid search-menu disabled">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <form action="" class="search-form">
+                            <input type="text"><button type="submit" >поиск</button></input>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Главная  Каталог  Проекты домов -->
+
+
+    <section class="container-fluid path-line">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <ul>
+                            <li class="path-line-arrow"><a href="#">Главная</a></li>
+                            <li class="path-line-arrow"><a href="#">Каталог</a></li>
+                            Проекты домов
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+<section class="container-fluid catalog">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>каталог проектов</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <ul class="nav nav-tabs my-tabs" role="tablist" id="my-tabs">
+                    <li>
+                        <a class="nav-link active" data-toggle="tab" href="#house">Дома</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" data-toggle="tab" href="#bathhouse">Бани</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" data-toggle="tab" href="#basement">Фундаменты</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" data-toggle="tab" href="#kitchen">Летние кухни</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="house" role="tabpanel">
+                            <ul>
+                                <li>
+                                    <div class="tab-item">
+                                        <a href="#">
+                                            <img src="img/tab-slide1.png" />
+                                            <div class="tab-caption">Проект Д-471</div>
+                                            <div class="tab-description">
+                                                <div class="tab-price">
+                                                    от
+                                                    <span class="old-price">1 500 000</span>
+                                                    <span class="price new-price">1 300 000
+                                                        <span class="rouble">a</span>
+                                                    </span>
+                                                </div>
+                                                <div class="tab-info">
+                                                    <div class="tab-dimension">10x12 m</div>
+                                                    <div class="tab-area">129 m
+                                                        <sup>2</sup>
+                                                    </div>
+                                                    <div class="tab-floor">
+                                                        2 этажа
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-selected">
+                                                <div></div>
+                                                <p>Перейти к проекту</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="tab-item tab-center">
+                                        <a href="#">
+                                            <img src="img/tab-slide1.png" />
+                                            <div class="tab-caption">Проект Д-471</div>
+                                            <div class="tab-description">
+                                                <div class="tab-price">
+                                                    от
+                                                    <span class="old-price">1 500 000</span>
+                                                    <span class="price new-price">1 300 000
+                                                        <span class="rouble">a</span>
+                                                    </span>
+                                                </div>
+                                                <div class="tab-info">
+                                                    <div class="tab-dimension">10x12 m</div>
+                                                    <div class="tab-area">129 m
+                                                        <sup>2</sup>
+                                                    </div>
+                                                    <div class="tab-floor">
+                                                        2 этажа
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-selected">
+                                                <div></div>
+                                                <p>Перейти к проекту</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="tab-item">
+                                        <a href="#">
+                                            <img src="img/tab-slide1.png" />
+                                            <div class="tab-caption">Проект Д-471</div>
+                                            <div class="tab-description">
+                                                <div class="tab-price">
+                                                    от
+                                                    <span class="old-price">1 500 000</span>
+                                                    <span class="price new-price">1 300 000
+                                                        <span class="rouble">a</span>
+                                                    </span>
+                                                </div>
+                                                <div class="tab-info">
+                                                    <div class="tab-dimension">10x12 m</div>
+                                                    <div class="tab-area">129 m
+                                                        <sup>2</sup>
+                                                    </div>
+                                                    <div class="tab-floor">
+                                                        2 этажа
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="tab-selected">
+                                                <div></div>
+                                                <p>Перейти к проекту</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </li>
+                                <li>
+                                        <div class="tab-item">
+                                            <a href="#">
+                                                <img src="img/tab-slide1.png" />
+                                                <div class="tab-caption">Проект Д-471</div>
+                                                <div class="tab-description">
+                                                    <div class="tab-price">
+                                                        от
+                                                        <span class="old-price">1 500 000</span>
+                                                        <span class="price new-price">1 300 000
+                                                            <span class="rouble">a</span>
+                                                        </span>
+                                                    </div>
+                                                    <div class="tab-info">
+                                                        <div class="tab-dimension">10x12 m</div>
+                                                        <div class="tab-area">129 m
+                                                            <sup>2</sup>
+                                                        </div>
+                                                        <div class="tab-floor">
+                                                            2 этажа
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-selected">
+                                                    <div></div>
+                                                    <p>Перейти к проекту</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="tab-item tab-center">
+                                            <a href="#">
+                                                <img src="img/tab-slide1.png" />
+                                                <div class="tab-caption">Проект Д-471</div>
+                                                <div class="tab-description">
+                                                    <div class="tab-price">
+                                                        от
+                                                        <span class="old-price">1 500 000</span>
+                                                        <span class="price new-price">1 300 000
+                                                            <span class="rouble">a</span>
+                                                        </span>
+                                                    </div>
+                                                    <div class="tab-info">
+                                                        <div class="tab-dimension">10x12 m</div>
+                                                        <div class="tab-area">129 m
+                                                            <sup>2</sup>
+                                                        </div>
+                                                        <div class="tab-floor">
+                                                            2 этажа
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-selected">
+                                                    <div></div>
+                                                    <p>Перейти к проекту</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                        <div class="tab-item">
+                                            <a href="#">
+                                                <img src="img/tab-slide1.png" />
+                                                <div class="tab-caption">Проект Д-471</div>
+                                                <div class="tab-description">
+                                                    <div class="tab-price">
+                                                        от
+                                                        <span class="old-price">1 500 000</span>
+                                                        <span class="price new-price">1 300 000
+                                                            <span class="rouble">a</span>
+                                                        </span>
+                                                    </div>
+                                                    <div class="tab-info">
+                                                        <div class="tab-dimension">10x12 m</div>
+                                                        <div class="tab-area">129 m
+                                                            <sup>2</sup>
+                                                        </div>
+                                                        <div class="tab-floor">
+                                                            2 этажа
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-selected">
+                                                    <div></div>
+                                                    <p>Перейти к проекту</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                            <div class="tab-item">
+                                                <a href="#">
+                                                    <img src="img/tab-slide1.png" />
+                                                    <div class="tab-caption">Проект Д-471</div>
+                                                    <div class="tab-description">
+                                                        <div class="tab-price">
+                                                            от
+                                                            <span class="old-price">1 500 000</span>
+                                                            <span class="price new-price">1 300 000
+                                                                <span class="rouble">a</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="tab-info">
+                                                            <div class="tab-dimension">10x12 m</div>
+                                                            <div class="tab-area">129 m
+                                                                <sup>2</sup>
+                                                            </div>
+                                                            <div class="tab-floor">
+                                                                2 этажа
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-selected">
+                                                        <div></div>
+                                                        <p>Перейти к проекту</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="tab-item tab-center">
+                                                <a href="#">
+                                                    <img src="img/tab-slide1.png" />
+                                                    <div class="tab-caption">Проект Д-471</div>
+                                                    <div class="tab-description">
+                                                        <div class="tab-price">
+                                                            от
+                                                            <span class="old-price">1 500 000</span>
+                                                            <span class="price new-price">1 300 000
+                                                                <span class="rouble">a</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="tab-info">
+                                                            <div class="tab-dimension">10x12 m</div>
+                                                            <div class="tab-area">129 m
+                                                                <sup>2</sup>
+                                                            </div>
+                                                            <div class="tab-floor">
+                                                                2 этажа
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-selected">
+                                                        <div></div>
+                                                        <p>Перейти к проекту</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="tab-item">
+                                                <a href="#">
+                                                    <img src="img/tab-slide1.png" />
+                                                    <div class="tab-caption">Проект Д-471</div>
+                                                    <div class="tab-description">
+                                                        <div class="tab-price">
+                                                            от
+                                                            <span class="old-price">1 500 000</span>
+                                                            <span class="price new-price">1 300 000
+                                                                <span class="rouble">a</span>
+                                                            </span>
+                                                        </div>
+                                                        <div class="tab-info">
+                                                            <div class="tab-dimension">10x12 m</div>
+                                                            <div class="tab-area">129 m
+                                                                <sup>2</sup>
+                                                            </div>
+                                                            <div class="tab-floor">
+                                                                2 этажа
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="tab-selected">
+                                                        <div></div>
+                                                        <p>Перейти к проекту</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </li>
+
+                                <div class="clearfix"></div>
+                            </ul>
+                            <div class="tab-controls">
+                                <a href="#" class="tab-ctrl-first">Первая</a>
+                                <div class="tab-ctrl-prev"></div>
+                                <a href="#" class="tab-ctrl-page">1</a>
+                                <a href="#" class="tab-ctrl-page tab-ctrl-page-current">2</a>
+                                <a href="#"class="tab-ctrl-page">3</a>
+                                <div class="tab-ctrl-next"></div>
+                                <a href="#"class="tab-ctrl-last">Последняя</a>
+                                <!-- <div class="tab-controls-btn btn-prev"></div>
+                                <div class="tab-controls-btn btn-next"></div> -->
+                            </div>
+                    </div>
+                    <div class="tab-pane" id="bathhouse" role="tabpanel"></div>
+                    <div class="tab-pane" id="basement" role="tabpanel">basement</div>
+                    <div class="tab-pane" id="kitchen" role="tabpanel">kitchen</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer class="container-fluid">
+    <div class="container footer">
+        <div class="row">
+            <div class="col">
+                <div class="copyright">
+                    <img src="img/footer-counter.png" alt="counter">
+                    <p class="cp-line">&copy; 2015 СК “Брусмонтаж”</p>
+                    <p class="design">Разработка сайта:</p>
+                    <a href="http://kuratov.ru">kuratov.ru</a>
+
+                </div>
+                <div class="social">
+                    <div class="footer-title">
+                        Мы в интернете
+                    </div>
+                    <p class="email-msg">Пишите нам на почту:</p>
+                    <a class="email" href="mailto://brusmontazh@yandex.ru">brusmontazh@yandex.ru</a>
+                    <p class="social-links">
+                        Наши страницы в соц. сетях:
+                    </p>
+                    <a href="" class="btn-social social-vk"></a>
+                    <a href="" class="btn-social social-fb"></a>
+                </div>
+                <div class="base">
+                    <div class="footer-title">
+                        Производственная база:
+                    </div>
+                    <div class="footer-phone">
+                        8(960)204-15-79
+                    </div>
+                    <div class="footer-addr">
+                        Новгородская обл., г.Пустово, ул.Лермонтова
+                    </div>
+                </div>
+                <div class="office">
+                    <div class="footer-title">
+                        Офис в Рыбинске:
+                    </div>
+                    <div class="footer-phone">8(930)118-05-70</div>
+                    - Николай
+                    <div class="footer-addr">г.Рыбинск, ул.Боткина, 5</div>
+                    <p>
+                        Звоните при посещении офиса<br>
+                        заранее по телефону:
+                    </p>
+                    <div class="footer-phone">8(960)206-15-69</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.js"></script>
+<script src="js/jquery.flexslider2_5_0-min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
