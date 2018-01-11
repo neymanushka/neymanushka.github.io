@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,700');
+
+.btn {
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;	
+	letter-spacing: 4px;
+	margin-left: 206px;	
+	border: 2px solid #ffffff;
+	border-radius: 28px;
+	padding: 16px 25px 14px 25px;	
+}
+
+.btn:hover {
+	border-color: #ffffff;
+}
+
+
+body{
+	font-family: 'Fira Sans', sans-serif;
+	background-color: black;
+	max-width:100%;
+}
+
+
+.head{
+	width: 1600px;
+	height: 900px;
+	background: url("/img/header-background.png") -212px -250px no-repeat;
+}
+
+header img {
+	margin-top: 86px;
+	margin-left: 190px;
+	margin-bottom: 188px;
+}
+
+.head h1{
+	font-size: 71px;
+	margin-left: 190px;
+}
+
+.head p{
+	font-size: 30px;
+	margin-left: 190px;
+}
+
+.about{	
+	width: 1600px;
+	height: 500px;
+	background: url("/img/about-photo.png") 0 -2px no-repeat;
+	background-color: #f3f1ef;
+	color: #666666;
+}
+
+.about h2 {	
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;	
+	margin: 106px 0 30px 40px;
+}
+
+.about p {	
+	font-size: 36px;
+	font-weight: lighter;	
+	letter-spacing: -1px;
+	margin-left: 40px;
+	line-height: 44px;
+}
+
+.gallery{
+	width: 1600px;
+	height: 515px;
+	background-color: #3f729b;
+	color: #f9f9f9;
+}
+
+.thumb1 {
+	width: 400px;
+	height: 520px;
+	background: url("img/thumbnail5.png") -266px -92px no-repeat;
+}
+
+.thumb2 {
+	width: 400px;
+	height: 520px;
+	background: url("img/thumbnail4.png") -70px -42px no-repeat;
+}
+
+.thumb3 {
+	width: 400px;
+	height: 520px;
+	background: url("img/thumbnail3.png") -12px -11px no-repeat;
+}
+
+.thumb4 {
+	width: 400px;
+	height: 520px;
+	background: url("img/thumbnail2.png") -333px -11px no-repeat;
+}
+
+.instagram {
+	width: 1600px;
+	height: 515px;	
+	background-color: #3f729b;
+	color: #f9f9f9;
+}
+
+.instagram h2 {
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 115px 0 28px 202px;
+}
+
+.instagram p {	
+	font-size: 36px;
+	width: 500px;
+	font-weight: normal;	
+	letter-spacing: -1px;
+	margin-left: 202px;
+	line-height: 44px;
+	margin-bottom: 45px;
+}
+
+.btn-instagram {
+	color: #ffffff;
+	background-color: #3f729b;
+	border-color: #ffffff;
+}
+
+.btn-instagram:hover {
+	background-color: #ffffff;
+	color: #3f729b;
+}
+
+
+.thumb {
+	width: 800px;
+}
+
+.thumb5 {
+	width: 400px;
+	height: 520px;
+	background: url("img/thumbnail1.png") -272px -4px no-repeat;
+	
+}
+
+.video {
+	width: 1600px;
+	height: 898px;
+	background: url("/img/music-background.png") 0 -168px no-repeat;
+	background-color: white;
+	color: #666666;
+
+}
+
+.video h2 {
+	font-size: 24px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 130px 0 9px 56px;	
+}
+
+.video h3 {
+	font-size: 18px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin-left: 56px;	
+}
+
+.video p {
+	font-size: 13px;
+	color: #f9f9f9;
+	width: 250px;
+	margin-left: 56px;
+	margin-top: 36px;	
+	margin-bottom: 57px;
+}
+
+.btn-video {
+	letter-spacing: 0;
+	margin-left: 56px;
+	background-color: #212227;
+	color: #2ebd59;
+	border-color: #2ebd59;
+	padding: 12px 25px 12px 25px;	
+}
+
+.btn-video:hover{
+	background-color: #2ebd59;
+	color: #212227;
+	border-color: #2ebd59;
+}
+
+.blankspace {
+	width: 400px;
+	height: 900px;
+	background-color: #282b2f;
+}
+
+.video-title {
+	width: 400px;
+	height: 482px;
+	background-color: #212227;
+	color: #2ebd59;
+}
+
+.video-description{
+	color: #f9f9f9;
+}
+
+div.video-title h2,div.video-title h4 {
+	text-transform: uppercase;
+}
+
+.music {
+	width: 1600px;
+	height: 516px;
+}
+
+.spotify-box {
+	width: 800px;
+	height: 516px;
+	color: #f9f9f9;
+	background-color: #2ebd59;
+}
+
+.spotify-box h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 211px;
+	margin-top: 136px;
+}
+
+.spotify-box p {
+	font-size: 36px;
+	font-weight: normal;
+	letter-spacing: -2px;
+	line-height: 1.2;
+	margin-left: 208px;
+	margin-top: 28px;
+	margin-bottom: 50px;
+}
+
+.btn-spotify {
+	text-decoration: none;
+	margin-left: 208px;	
+	color: #f9f9f9;
+	background-color: #2ebd59;	
+}
+
+.btn-spotify:hover{
+	color: #2ebd59;
+	background-color: #f9f9f9;	
+	border-color: #f9f9f9;	
+}
+
+
+.itunes-box {
+	width: 800px;
+	height: 516px;
+	color: #f9f9f9;
+	background-color: #282b2f;
+}
+
+.itunes-box h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-left: 70px;
+	margin-top: 136px;
+}
+
+.itunes-box p {
+	font-size: 36px;
+	font-weight: normal;
+	letter-spacing: -2px;
+	line-height: 1.2;
+	margin-left: 70px;
+	margin-top: 28px;
+	margin-bottom: 50px;
+}
+
+.btn-itunes {
+	text-decoration: none;
+	margin-left: 70px;	
+	color: #f9f9f9;
+	background-color: #282b2f;
+}
+
+.btn-itunes:hover{
+	color: #282b2f;
+	background-color: #f9f9f9;
+	border-color: #f9f9f9;	
+}
+
+
+div.spotify-box, div.itunes-box {
+	text-transform: uppercase;
+}
+
+div.spotify-box p, div.itunes-box p{
+	text-transform: none;
+}
+
+.footer {
+	width: 1600px;
+	height: 605px;
+	background-color: #212227;
+	color: #919191;
+}
+
+.footer h3{
+	font-size: 18px;
+	font-weight: bold;	
+	color: white;
+	text-transform: uppercase;
+}
+
+.footer p {
+	font-size: 14px;
+}
+
+.footer .amazing h3 {
+	width: 200px;
+	margin-bottom: 31px;
+}
+
+.footer .amazing h4 {
+	font-size: 14px;
+	text-transform: uppercase;
+	//width: 200px;
+}
+
+.footer .amazing p {
+	width: 310px;
+}
+
+
+.footer li {
+	list-style: none;
+}
+
+div.amazing {
+	margin-top: 99px;
+	margin-left: 194px;
+}
+
+.footer div.contacts {
+	margin-top: 99px;
+}
+
+.footer div.contacts p {
+	margin-top: 20px;
+	width: 170px;
+}
+
+.footer div.contacts .follow-me-on{
+	margin-top: 80px;
+	margin-bottom: 20px;
+}
+
+
+.social {
+	background: url("img/sprites-social.png") no-repeat;
+	width: 14px;
+	height: 20px;
+	margin-top: 4px;
+
+}
+
+div.social a {
+	color: #919191;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-left: 30px;
+}
+
+.spr-fb {	background-position: 0 4px; }
+.spr-tw { 	background-position: 0 -22px; }
+.spr-inst { 	background-position: 0 -45px; }
+.spr-sptf { 	background-position: 0 -68px; }
+
+.footer .subscribe{
+	margin-top: 99px;
+	margin-left: 30px;
+}
+
+.footer .subscribe p {
+	margin-top: 23px;
+}
+
+.footer .subscribe input {
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: -1px;
+	text-transform: uppercase;
+	color: #919191;
+	background-color: #4d4e52;
+	border: none;	
+	padding: 19px 292px 19px 19px;
+	margin-bottom: 83px;
+}
+
+.sponsor {
+	display: inline-block;
+	background: url("img/sponsor-logo.png") no-repeat;	
+	width: 80px;
+	height: 80px;
+	margin-top: 12px;
+	margin-right: 12px;
+}
+
+
+.t1 {
+	border: 2px solid red;	
+}
